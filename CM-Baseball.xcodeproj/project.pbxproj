@@ -10,11 +10,12 @@
 		D1291CDE1B3395CC00F27F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CDD1B3395CC00F27F1A /* main.m */; };
 		D1291CE11B3395CC00F27F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CE01B3395CC00F27F1A /* AppDelegate.m */; };
 		D1291CE41B3395CC00F27F1A /* CM_Baseball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1291CE21B3395CC00F27F1A /* CM_Baseball.xcdatamodeld */; };
-		D1291CE71B3395CC00F27F1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CE61B3395CC00F27F1A /* ViewController.m */; };
+		D1291CE71B3395CC00F27F1A /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CE61B3395CC00F27F1A /* Start.m */; };
 		D1291CEA1B3395CC00F27F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1291CE81B3395CC00F27F1A /* Main.storyboard */; };
 		D1291CEC1B3395CC00F27F1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1291CEB1B3395CC00F27F1A /* Images.xcassets */; };
 		D1291CEF1B3395CC00F27F1A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1291CED1B3395CC00F27F1A /* LaunchScreen.xib */; };
 		D1291CFB1B3395CC00F27F1A /* CM_BaseballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CFA1B3395CC00F27F1A /* CM_BaseballTests.m */; };
+		D1291D071B33965F00F27F1A /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291D061B33965F00F27F1A /* Declarations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		D1291CDF1B3395CC00F27F1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1291CE01B3395CC00F27F1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D1291CE31B3395CC00F27F1A /* CM_Baseball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CM_Baseball.xcdatamodel; sourceTree = "<group>"; };
-		D1291CE51B3395CC00F27F1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D1291CE61B3395CC00F27F1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1291CE51B3395CC00F27F1A /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		D1291CE61B3395CC00F27F1A /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		D1291CE91B3395CC00F27F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1291CEB1B3395CC00F27F1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1291CEE1B3395CC00F27F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D1291CF41B3395CC00F27F1A /* CM-BaseballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CM-BaseballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1291CF91B3395CC00F27F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1291CFA1B3395CC00F27F1A /* CM_BaseballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CM_BaseballTests.m; sourceTree = "<group>"; };
+		D1291D051B33965F00F27F1A /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		D1291D061B33965F00F27F1A /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,9 @@
 		D1291CDA1B3395CC00F27F1A /* CM-Baseball */ = {
 			isa = PBXGroup;
 			children = (
-				D1291CDF1B3395CC00F27F1A /* AppDelegate.h */,
-				D1291CE01B3395CC00F27F1A /* AppDelegate.m */,
-				D1291CE51B3395CC00F27F1A /* ViewController.h */,
-				D1291CE61B3395CC00F27F1A /* ViewController.m */,
+				D1291D041B33963600F27F1A /* Main */,
+				D1291D081B33966600F27F1A /* Controllers */,
+				D1291D091B33967600F27F1A /* Cells */,
 				D1291CE81B3395CC00F27F1A /* Main.storyboard */,
 				D1291CEB1B3395CC00F27F1A /* Images.xcassets */,
 				D1291CED1B3395CC00F27F1A /* LaunchScreen.xib */,
@@ -120,6 +122,33 @@
 				D1291CF91B3395CC00F27F1A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1291D041B33963600F27F1A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D1291CDF1B3395CC00F27F1A /* AppDelegate.h */,
+				D1291CE01B3395CC00F27F1A /* AppDelegate.m */,
+				D1291D051B33965F00F27F1A /* Declarations.h */,
+				D1291D061B33965F00F27F1A /* Declarations.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		D1291D081B33966600F27F1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1291CE51B3395CC00F27F1A /* Start.h */,
+				D1291CE61B3395CC00F27F1A /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D1291D091B33967600F27F1A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +253,9 @@
 			files = (
 				D1291CE41B3395CC00F27F1A /* CM_Baseball.xcdatamodeld in Sources */,
 				D1291CE11B3395CC00F27F1A /* AppDelegate.m in Sources */,
-				D1291CE71B3395CC00F27F1A /* ViewController.m in Sources */,
+				D1291CE71B3395CC00F27F1A /* Start.m in Sources */,
 				D1291CDE1B3395CC00F27F1A /* main.m in Sources */,
+				D1291D071B33965F00F27F1A /* Declarations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
