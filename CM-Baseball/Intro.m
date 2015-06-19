@@ -8,6 +8,7 @@
 
 #import "Intro.h"
 #import "Declarations.h"
+#import "Home.h"
 
 @interface Intro ()
 
@@ -40,5 +41,9 @@
 }
 
 - (IBAction)btnIntroPressed:(id)sender {
+    
+    Home *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
 }
 @end
