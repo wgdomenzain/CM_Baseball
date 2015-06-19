@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+extern NSMutableArray *maIntroTitles;
+extern NSMutableArray *maIntroImgs;
+
 @interface Declarations : NSObject
 
 @end
