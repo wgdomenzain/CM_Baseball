@@ -29,7 +29,8 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    maIntroTitles = [[NSMutableArray alloc] initWithObjects: @"Sigue tus equipos\nfavoritos", @"Pide tus bebeidas\na tu lugar", @"Encuentra tu butaca\nen el estadio", nil];
+    maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Sigue tus equipos\nfavoritos", @"Pide tus bebeidas\na tu lugar", @"Encuentra tu butaca\nen el estadio", nil];
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"intro_01.png", @"intro_02.png", @"intro_03.png", nil];
     [self createPageViews];
 }
 /**********************************************************************************************/

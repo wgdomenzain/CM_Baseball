@@ -17,6 +17,9 @@
 		D1291CFB1B3395CC00F27F1A /* CM_BaseballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CFA1B3395CC00F27F1A /* CM_BaseballTests.m */; };
 		D1291D071B33965F00F27F1A /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291D061B33965F00F27F1A /* Declarations.m */; };
 		D1291D0C1B3397DF00F27F1A /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291D0B1B3397DF00F27F1A /* Intro.m */; };
+		D1291D111B33A6F400F27F1A /* intro_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D1291D0E1B33A6F400F27F1A /* intro_01.png */; };
+		D1291D121B33A6F400F27F1A /* intro_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D1291D0F1B33A6F400F27F1A /* intro_02.png */; };
+		D1291D131B33A6F400F27F1A /* intro_03.png in Resources */ = {isa = PBXBuildFile; fileRef = D1291D101B33A6F400F27F1A /* intro_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		D1291D061B33965F00F27F1A /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 		D1291D0A1B3397DF00F27F1A /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
 		D1291D0B1B3397DF00F27F1A /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		D1291D0E1B33A6F400F27F1A /* intro_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_01.png; sourceTree = "<group>"; };
+		D1291D0F1B33A6F400F27F1A /* intro_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_02.png; sourceTree = "<group>"; };
+		D1291D101B33A6F400F27F1A /* intro_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = intro_03.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 		D1291CCF1B3395CC00F27F1A = {
 			isa = PBXGroup;
 			children = (
+				D1291D0D1B33A6F400F27F1A /* imgs */,
 				D1291CDA1B3395CC00F27F1A /* CM-Baseball */,
 				D1291CF71B3395CC00F27F1A /* CM-BaseballTests */,
 				D1291CD91B3395CC00F27F1A /* Products */,
@@ -156,6 +163,17 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		D1291D0D1B33A6F400F27F1A /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				D1291D0E1B33A6F400F27F1A /* intro_01.png */,
+				D1291D0F1B33A6F400F27F1A /* intro_02.png */,
+				D1291D101B33A6F400F27F1A /* intro_03.png */,
+			);
+			name = imgs;
+			path = "CM-Baseball/imgs";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +257,9 @@
 				D1291CEA1B3395CC00F27F1A /* Main.storyboard in Resources */,
 				D1291CEF1B3395CC00F27F1A /* LaunchScreen.xib in Resources */,
 				D1291CEC1B3395CC00F27F1A /* Images.xcassets in Resources */,
+				D1291D131B33A6F400F27F1A /* intro_03.png in Resources */,
+				D1291D121B33A6F400F27F1A /* intro_02.png in Resources */,
+				D1291D111B33A6F400F27F1A /* intro_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
