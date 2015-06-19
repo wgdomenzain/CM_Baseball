@@ -45,10 +45,23 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HLa-qJ-Wb2" userLabel="btnSkip">
+                                <rect key="frame" x="60" y="460" width="200" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29019609089999998" green="0.54509806630000002" blue="0.96470588450000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="¡Ya entendí!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnIntroPressed:" destination="mYh-St-YUU" eventType="touchUpInside" id="3T9-U0-nbC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="btnIntro" destination="HLa-qJ-Wb2" id="PV5-92-8CX"/>
                         <outlet property="imgIntro" destination="JWR-Wt-hnq" id="v9P-Sc-YwO"/>
                         <outlet property="lblIntro" destination="Fxh-Jm-6BO" id="lpo-5g-nCk"/>
                     </connections>

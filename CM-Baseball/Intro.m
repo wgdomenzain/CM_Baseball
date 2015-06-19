@@ -17,7 +17,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    //Round user image and add a white border
+    self.btnIntro.layer.borderColor    = [UIColor clearColor].CGColor;
+    self.btnIntro.layer.borderWidth    = 2.0;
+    self.btnIntro.clipsToBounds        = YES;
+    self.btnIntro.layer.cornerRadius   = 4;
 }
 //-------------------------------------------------------------------------------
 - (void)didReceiveMemoryWarning {
@@ -28,6 +33,12 @@
 -(void)viewWillAppear:(BOOL)animated {
     self.lblIntro.text  = maIntroTitles[self.iPageIndex];
     self.imgIntro.image = [UIImage imageNamed:maIntroImgs[self.iPageIndex]];
+    if (self.iPageIndex == 2)
+    {
+        self.btnIntro.hidden = NO;
+    }
 }
 
+- (IBAction)btnIntroPressed:(id)sender {
+}
 @end
