@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		383ED9571B33AA9000155E2E /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 383ED9561B33AA9000155E2E /* Home.m */; };
+		383ED95B1B33AFBF00155E2E /* cellBaseball.m in Sources */ = {isa = PBXBuildFile; fileRef = 383ED9591B33AFBF00155E2E /* cellBaseball.m */; };
+		383ED95C1B33AFBF00155E2E /* cellBaseball.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383ED95A1B33AFBF00155E2E /* cellBaseball.xib */; };
 		D1291CDE1B3395CC00F27F1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CDD1B3395CC00F27F1A /* main.m */; };
 		D1291CE11B3395CC00F27F1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291CE01B3395CC00F27F1A /* AppDelegate.m */; };
 		D1291CE41B3395CC00F27F1A /* CM_Baseball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1291CE21B3395CC00F27F1A /* CM_Baseball.xcdatamodeld */; };
@@ -36,6 +38,9 @@
 /* Begin PBXFileReference section */
 		383ED9551B33AA9000155E2E /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		383ED9561B33AA9000155E2E /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		383ED9581B33AFBF00155E2E /* cellBaseball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellBaseball.h; sourceTree = "<group>"; };
+		383ED9591B33AFBF00155E2E /* cellBaseball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellBaseball.m; sourceTree = "<group>"; };
+		383ED95A1B33AFBF00155E2E /* cellBaseball.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellBaseball.xib; sourceTree = "<group>"; };
 		D1291CD81B3395CC00F27F1A /* CM-Baseball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Baseball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1291CDC1B3395CC00F27F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1291CDD1B3395CC00F27F1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -164,6 +169,9 @@
 		D1291D091B33967600F27F1A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				383ED9581B33AFBF00155E2E /* cellBaseball.h */,
+				383ED9591B33AFBF00155E2E /* cellBaseball.m */,
+				383ED95A1B33AFBF00155E2E /* cellBaseball.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -259,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383ED95C1B33AFBF00155E2E /* cellBaseball.xib in Resources */,
 				D1291CEA1B3395CC00F27F1A /* Main.storyboard in Resources */,
 				D1291CEF1B3395CC00F27F1A /* LaunchScreen.xib in Resources */,
 				D1291CEC1B3395CC00F27F1A /* Images.xcassets in Resources */,
@@ -289,6 +298,7 @@
 				383ED9571B33AA9000155E2E /* Home.m in Sources */,
 				D1291CDE1B3395CC00F27F1A /* main.m in Sources */,
 				D1291D071B33965F00F27F1A /* Declarations.m in Sources */,
+				383ED95B1B33AFBF00155E2E /* cellBaseball.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
