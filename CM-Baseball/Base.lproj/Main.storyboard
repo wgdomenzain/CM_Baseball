@@ -70,7 +70,35 @@
             </objects>
             <point key="canvasLocation" x="864" y="233"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="ti6-u9-0zZ">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="qpl-Mc-VO9" customClass="Home" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eJR-Jk-NmA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bckg_02.jpg" id="Glb-AT-ECY" userLabel="imgBckg">
+                                <rect key="frame" x="-200" y="0.0" width="520" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <view alpha="0.59999999999999998" contentMode="scaleToFill" id="UF7-Qu-kpa">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wly-od-zZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1301" y="233"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="bckg_02.jpg" width="500" height="334"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
