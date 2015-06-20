@@ -42,6 +42,10 @@
 //-------------------------------------------------------------------------------
 - (IBAction)btnIntroPressed:(id)sender
 {
+    [mUserDefaults setObject: @"YES" forKey: @"firstTimeCheck"];
+    NSString *stTemp = [mUserDefaults objectForKey:@"firstTimeCheck"];
+    NSLog(@"firstTimeCheck = %@", stTemp);
+    
     Home *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
     [self presentViewController:vc animated:YES completion:nil];
 }

@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSMutableArray *maIntroTitles;
-extern NSMutableArray *maIntroImgs;
-extern NSMutableArray  *maTeams;
-extern NSMutableArray  *maImgsTeams;
+extern NSUserDefaults   *mUserDefaults;
+extern NSMutableArray   *maIntroTitles;
+extern NSMutableArray   *maIntroImgs;
+extern NSMutableArray   *maTeams;
+extern NSMutableArray   *maImgsTeams;
 
 @interface Declarations : NSObject
 

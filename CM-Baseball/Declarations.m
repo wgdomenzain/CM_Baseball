@@ -8,10 +8,13 @@
 
 #import "Declarations.h"
 
-NSMutableArray  *maIntroTitles;
-NSMutableArray  *maIntroImgs;
-NSMutableArray  *maTeams;
-NSMutableArray  *maImgsTeams;
+//User Defaults
+NSUserDefaults      *mUserDefaults;
+
+NSMutableArray      *maIntroTitles;
+NSMutableArray      *maIntroImgs;
+NSMutableArray      *maTeams;
+NSMutableArray      *maImgsTeams;
 
 @implementation Declarations
 

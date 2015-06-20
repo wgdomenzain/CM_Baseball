@@ -8,6 +8,7 @@
 
 #import "Start.h"
 #import "Intro.h"
+#import "Home.h"
 #import "Declarations.h"
 
 @interface Start ()
@@ -23,6 +24,18 @@
     [self initController];
 }
 //-------------------------------------------------------------------------------
+- (void)viewDidAppear:(BOOL)animated {
+    mUserDefaults       = [NSUserDefaults standardUserDefaults];
+    NSString *stTemp    = [mUserDefaults objectForKey:@"firstTimeCheck"];
+    NSLog(@"firstTimeCheck = %@", stTemp);
+    //From phone memory
+    if ([stTemp isEqual:@"YES"]) {
+        //User has seen the intro before, skip intro
+        Home *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
+        [self presentViewController:vc animated:YES completion:nil];
+    }
+}
+//-------------------------------------------------------------------------------
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -31,6 +44,7 @@
 - (void)initController {
     maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Sigue tus equipos\nfavoritos", @"Pide tus bebidas\na tu lugar", @"Encuentra tu butaca\nen el estadio", nil];
     maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"intro_01.png", @"intro_02.png", @"intro_03.png", nil];
+    
     [self createPageViews];
 }
 /**********************************************************************************************/
