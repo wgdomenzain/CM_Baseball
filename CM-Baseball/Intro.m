@@ -7,6 +7,7 @@
 //
 
 #import "Intro.h"
+#import "Home.h"
 #import "Declarations.h"
 
 @interface Intro ()
@@ -38,7 +39,20 @@
         self.btnIntro.hidden = NO;
     }
 }
-
-- (IBAction)btnIntroPressed:(id)sender {
+//-------------------------------------------------------------------------------
+- (IBAction)btnIntroPressed:(id)sender
+{
+    Home *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
+    [self presentViewController:vc animated:YES completion:nil];
 }
+
+
+
+
+
+
+
+
+
+
 @end
