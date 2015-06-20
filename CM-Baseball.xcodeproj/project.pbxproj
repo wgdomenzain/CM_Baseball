@@ -23,6 +23,16 @@
 		D1291D161B33AA6400F27F1A /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291D151B33AA6400F27F1A /* Home.m */; };
 		D1291D181B33AB1300F27F1A /* bckg_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1291D171B33AB1300F27F1A /* bckg_01.jpg */; };
 		D1291D1A1B33AB9100F27F1A /* bckg_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1291D191B33AB9100F27F1A /* bckg_02.jpg */; };
+		D1291D1E1B33AED900F27F1A /* cellBaseball.m in Sources */ = {isa = PBXBuildFile; fileRef = D1291D1C1B33AED900F27F1A /* cellBaseball.m */; };
+		D1291D1F1B33AED900F27F1A /* cellBaseball.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1291D1D1B33AED900F27F1A /* cellBaseball.xib */; };
+		D1E4EE831B35AF5300687B97 /* aguilas.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE7B1B35AF5300687B97 /* aguilas.png */; };
+		D1E4EE841B35AF5300687B97 /* charros.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE7C1B35AF5300687B97 /* charros.png */; };
+		D1E4EE851B35AF5300687B97 /* mayos.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE7D1B35AF5300687B97 /* mayos.png */; };
+		D1E4EE861B35AF5300687B97 /* mochis.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE7E1B35AF5300687B97 /* mochis.png */; };
+		D1E4EE871B35AF5300687B97 /* naranjeros.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE7F1B35AF5300687B97 /* naranjeros.png */; };
+		D1E4EE881B35AF5300687B97 /* tomateros.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE801B35AF5300687B97 /* tomateros.png */; };
+		D1E4EE891B35AF5300687B97 /* venados.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE811B35AF5300687B97 /* venados.png */; };
+		D1E4EE8A1B35AF5300687B97 /* yaquis.png in Resources */ = {isa = PBXBuildFile; fileRef = D1E4EE821B35AF5300687B97 /* yaquis.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +71,17 @@
 		D1291D151B33AA6400F27F1A /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D1291D171B33AB1300F27F1A /* bckg_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bckg_01.jpg; sourceTree = "<group>"; };
 		D1291D191B33AB9100F27F1A /* bckg_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bckg_02.jpg; sourceTree = "<group>"; };
+		D1291D1B1B33AED900F27F1A /* cellBaseball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellBaseball.h; sourceTree = "<group>"; };
+		D1291D1C1B33AED900F27F1A /* cellBaseball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellBaseball.m; sourceTree = "<group>"; };
+		D1291D1D1B33AED900F27F1A /* cellBaseball.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellBaseball.xib; sourceTree = "<group>"; };
+		D1E4EE7B1B35AF5300687B97 /* aguilas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aguilas.png; sourceTree = "<group>"; };
+		D1E4EE7C1B35AF5300687B97 /* charros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charros.png; sourceTree = "<group>"; };
+		D1E4EE7D1B35AF5300687B97 /* mayos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mayos.png; sourceTree = "<group>"; };
+		D1E4EE7E1B35AF5300687B97 /* mochis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mochis.png; sourceTree = "<group>"; };
+		D1E4EE7F1B35AF5300687B97 /* naranjeros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naranjeros.png; sourceTree = "<group>"; };
+		D1E4EE801B35AF5300687B97 /* tomateros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomateros.png; sourceTree = "<group>"; };
+		D1E4EE811B35AF5300687B97 /* venados.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venados.png; sourceTree = "<group>"; };
+		D1E4EE821B35AF5300687B97 /* yaquis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yaquis.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +189,9 @@
 		D1291D091B33967600F27F1A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				D1291D1B1B33AED900F27F1A /* cellBaseball.h */,
+				D1291D1C1B33AED900F27F1A /* cellBaseball.m */,
+				D1291D1D1B33AED900F27F1A /* cellBaseball.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -175,6 +199,14 @@
 		D1291D0D1B33A6F400F27F1A /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				D1E4EE7B1B35AF5300687B97 /* aguilas.png */,
+				D1E4EE7C1B35AF5300687B97 /* charros.png */,
+				D1E4EE7D1B35AF5300687B97 /* mayos.png */,
+				D1E4EE7E1B35AF5300687B97 /* mochis.png */,
+				D1E4EE7F1B35AF5300687B97 /* naranjeros.png */,
+				D1E4EE801B35AF5300687B97 /* tomateros.png */,
+				D1E4EE811B35AF5300687B97 /* venados.png */,
+				D1E4EE821B35AF5300687B97 /* yaquis.png */,
 				D1291D191B33AB9100F27F1A /* bckg_02.jpg */,
 				D1291D171B33AB1300F27F1A /* bckg_01.jpg */,
 				D1291D0E1B33A6F400F27F1A /* intro_01.png */,
@@ -265,13 +297,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E4EE871B35AF5300687B97 /* naranjeros.png in Resources */,
 				D1291CEA1B3395CC00F27F1A /* Main.storyboard in Resources */,
 				D1291D181B33AB1300F27F1A /* bckg_01.jpg in Resources */,
+				D1E4EE861B35AF5300687B97 /* mochis.png in Resources */,
 				D1291D1A1B33AB9100F27F1A /* bckg_02.jpg in Resources */,
+				D1E4EE8A1B35AF5300687B97 /* yaquis.png in Resources */,
 				D1291CEF1B3395CC00F27F1A /* LaunchScreen.xib in Resources */,
+				D1E4EE881B35AF5300687B97 /* tomateros.png in Resources */,
+				D1E4EE841B35AF5300687B97 /* charros.png in Resources */,
 				D1291CEC1B3395CC00F27F1A /* Images.xcassets in Resources */,
 				D1291D131B33A6F400F27F1A /* intro_03.png in Resources */,
+				D1E4EE831B35AF5300687B97 /* aguilas.png in Resources */,
 				D1291D121B33A6F400F27F1A /* intro_02.png in Resources */,
+				D1E4EE851B35AF5300687B97 /* mayos.png in Resources */,
+				D1291D1F1B33AED900F27F1A /* cellBaseball.xib in Resources */,
+				D1E4EE891B35AF5300687B97 /* venados.png in Resources */,
 				D1291D111B33A6F400F27F1A /* intro_01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +338,7 @@
 				D1291D161B33AA6400F27F1A /* Home.m in Sources */,
 				D1291CDE1B3395CC00F27F1A /* main.m in Sources */,
 				D1291D071B33965F00F27F1A /* Declarations.m in Sources */,
+				D1291D1E1B33AED900F27F1A /* cellBaseball.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +533,7 @@
 				D1291D001B3395CC00F27F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1291D011B3395CC00F27F1A /* Build configuration list for PBXNativeTarget "CM-BaseballTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +542,7 @@
 				D1291D031B3395CC00F27F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

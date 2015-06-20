@@ -10,6 +10,9 @@
 
 NSMutableArray  *maIntroTitles;
 NSMutableArray  *maIntroImgs;
+NSMutableArray  *maTeams;
+NSMutableArray  *maImgsTeams;
+
 @implementation Declarations
 
 @end

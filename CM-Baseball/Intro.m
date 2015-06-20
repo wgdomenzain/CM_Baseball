@@ -39,7 +39,7 @@
         self.btnIntro.hidden = NO;
     }
 }
-
+//-------------------------------------------------------------------------------
 - (IBAction)btnIntroPressed:(id)sender
 {
     Home *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Home"];
