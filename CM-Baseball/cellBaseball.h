@@ -10,4 +10,10 @@
 
 @interface cellBaseball : UITableViewCell
 
+//Objects
+@property (strong, nonatomic) IBOutlet UIImageView *imgTeam;
+@property (strong, nonatomic) IBOutlet UILabel *lblTeam;
+@property (strong, nonatomic) IBOutlet UILabel *lblWon;
+@property (strong, nonatomic) IBOutlet UILabel *lblLost;
+
 @end

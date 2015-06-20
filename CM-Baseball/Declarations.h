@@ -10,6 +10,8 @@
 
 extern NSMutableArray *maIntroTitles;
 extern NSMutableArray *maIntroImgs;
+extern NSMutableArray  *maTeams;
+extern NSMutableArray  *maImgsTeams;
 
 @interface Declarations : NSObject
 
